@@ -1,8 +1,12 @@
-About the for range loop for channel in Go:
+About the `for range loop` for channel in Go:
 The loop for i := range c receives values from the channel repeatedly until it is closed.
 
-About the close function in Go channels:
+About the `close` function in Go channels:
 1. Only the sender should close a channel, never the receiver. Sending on a closed channel will cause a panic.
 2. Channels aren't like files; you don't usually need to close them.
    Closing is only necessary when the receiver must be told there are no more values coming,
    such as to terminate a range loop.
+
+About the `select` statement in Go:
+1. `select` lets you wait on multiple channel operations.
+2. Combining goroutines and channels with `select` is a powerful feature of Go.

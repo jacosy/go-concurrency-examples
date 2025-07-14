@@ -5,4 +5,7 @@ func main() {
 	// unbufferedChannelExample()
 	// channleSynchronizationExample()
 	// channelDirectionsExample()
+	selectExample()
+
+	// basicWorkerPoolUsageExample()
 }
