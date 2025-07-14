@@ -6,7 +6,8 @@ func main() {
 	// channleSynchronizationExample()
 	// channelDirectionsExample()
 	// selectExample()
-	timeoutExample()
+	// timeoutExample()
+	nonBlockingChannelWithSelect()
 
 	// basicWorkerPoolUsageExample()
 }
